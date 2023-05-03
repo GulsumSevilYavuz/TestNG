@@ -29,5 +29,10 @@ public class C05_DataProvider {
         blueRentalPage.email.sendKeys(email, Keys.TAB,password,Keys.ENTER);
         ReusableMethods.bekle(3);
         Driver.closeDriver();
+           /*
+        C05 class'ındaki task için her kullanıcı için doğrulama yapalım
+        En son sayfayı kapalım
+         */
+
     }
 }

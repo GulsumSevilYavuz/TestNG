@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Day 24 Smoke Test">
+    <test name="BlueRentalCar Smoke Test">
+        <packages>
+            <package name="techproed.tests.day24_Properties_Pages.C04_SmokeTest"/>
+        </packages>
+    </test>
+</suite>
+        <!-- .xml file aÃ§tÄ±ktan sonra crtl+alt+l tuÅŸlarÄ±na basarak .xml file'daki kodlarÄ± dÃ¼zene koyarÄ±z -->
+        <!-- .xml file da ilk tag <suite> sonra <test> olarak devam eder-->
+        <!-- .xml file ile bu class'ta sadece package olarak test yapacaÄŸÄ±mÄ±z iÃ§in <classes> tag'lerine gerek yoktur-->
+        <!-- SaÄŸ tÄ±k yaptÄ±ÄŸÄ±mÄ±z zaman run sekmesi gÃ¶rÃ¼kmÃ¼yorsa file->save-all (ctrl+s) yapmamÄ±z gerekir -->
+        <!-- Testlerimizi xml file ile Ã§alÄ±ÅŸtÄ±rmanÄ±n
+                1. mantÄ±ÄŸÄ± Ä°steÄŸim classlarÄ± tek seferde ve tek bir suite altÄ±nda Ã§alÄ±ÅŸtÄ±rabilmek
+                2. mantÄ±ÄŸÄ± isteÄŸim package yada methodlarÄ± tek sefer ve tek bir suite altÄ±nda Ã§alÄ±ÅŸtÄ±rabilmek
+                3. FarklÄ± classlar iÃ§indeki farklÄ± methodlarÄ± tek sefer ve tek bir suite altÄ±nda Ã§alÄ±ÅŸtÄ±rabilmek
+                4. Grup isimleri atadÄ±ÄŸÄ±mÄ±z methodlarÄ± tek sefer ve tek bir suite altÄ±nda Ã§alÄ±ÅŸtÄ±rabilmek-->

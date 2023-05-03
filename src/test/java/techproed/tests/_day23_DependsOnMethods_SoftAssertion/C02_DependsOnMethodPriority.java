@@ -1,4 +1,4 @@
-package techproed.tests.day23_DependsOnMethods;
+package techproed.tests._day23_DependsOnMethods_SoftAssertion;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

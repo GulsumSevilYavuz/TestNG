@@ -1,4 +1,4 @@
-package techproed.tests.day24_Properties_Pages.SmokeTest;
+package techproed.tests.day24_Properties_Pages;
 
 import org.testng.annotations.Test;
 import techproed.utilities.ConfigReader;
