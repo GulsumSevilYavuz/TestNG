@@ -1,11 +1,12 @@
 package techproed.tests.day01_practice;
 
-import Utilities.TestBase;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import techproed.utilities.TestBase;
 
 public class C03_SoftAssert extends TestBase {
 
@@ -65,7 +66,7 @@ public class C03_SoftAssert extends TestBase {
 
 
         // test islemlerini softAsser ile yapınız ve hatalar icin mesaj versin
-        softAssert.assertAll();
+           softAssert.assertAll();
         /*
         softAssert.assertAll() yazıp tum hataları listelemesini istemeliyiz. Aksi halde hata vermez.
          */

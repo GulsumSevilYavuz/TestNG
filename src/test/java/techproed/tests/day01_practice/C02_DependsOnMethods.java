@@ -46,7 +46,9 @@ public class C02_DependsOnMethods {
 
     @Test(dependsOnMethods = "test01")
     public void test02() {
-        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Nutella" + Keys.ENTER);
+
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).
+                sendKeys("Nutella" + Keys.ENTER);
 
     }
 
@@ -59,6 +61,7 @@ public class C02_DependsOnMethods {
 
         Assert.assertTrue(sonucYazisiStr.contains("Nutella"));
 
+    }}
         /*
         DeopendsOnMethods test methodlarının calısma sırasına karısmaz.
         Sadece baglı olan test, baglandıgı testin sonucuna bakar
@@ -66,9 +69,3 @@ public class C02_DependsOnMethods {
 
 
          */
-
-
-
-
-    }
-}

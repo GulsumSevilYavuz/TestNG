@@ -3,10 +3,10 @@ package techproed.tests.day01_practice;
 
 import techproed.pages.FacebookPagePractice;
 import techproed.utilities.ConfigReader;
-import techproed.utilities.DriverPractice;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import techproed.utilities.Driver;
 
 public class C04_PageClassKullanimi {
 
@@ -23,7 +23,7 @@ public class C04_PageClassKullanimi {
 
 
         // facebook anasayfaya gidin
-        DriverPractice.getDriver().get(ConfigReader.getProperty("facebookUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
 
 
         // kullanıcı email kutusuna rastgele bir isim yazın
@@ -49,7 +49,7 @@ public class C04_PageClassKullanimi {
 
 
         // sayfayı kaptın
-        DriverPractice.closeDriver();
+        Driver.closeDriver();
 
 
 
